@@ -1,6 +1,6 @@
 package br.com.pattern.structural.bridge;
 
-public abstract class Carro  implements Cloneable{
+public abstract class Carro {
 	
 	private int portas = 4;
 	
@@ -41,9 +41,5 @@ public abstract class Carro  implements Cloneable{
 		System.out.println("Fom Fom!");
 	}
 	
-	@Override
-	protected Carro clone() throws CloneNotSupportedException {		
-		return (Carro) super.clone();
-	}
 
 }
