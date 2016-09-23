@@ -33,7 +33,6 @@ public class Item {
 	/**
 	 * @param extras the extras to set
 	 */
-	@SuppressWarnings("unchecked")
 	public void setExtras(Function<Integer, Integer>... extras) {
 		this.extras = extras;
 	}
